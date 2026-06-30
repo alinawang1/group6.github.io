@@ -1,4 +1,6 @@
 remote_theme: raviriley/agency-jekyll-theme
-
+ 
+locale: "en-US"
+ 
 plugins:
   - jekyll-remote-theme
