@@ -98,10 +98,6 @@ en: &DEFAULT_EN
         role: "Content Developer"
         image: assets/img/team/500x500.jpg
         social: []
-      - name: "Daniel Kim"
-        role: "Data Visualization Specialist"
-        image: assets/img/team/500x500.jpg
-        social: []
       - name: "William Wu"
         role: "Data Specialist"
         image: assets/img/team/500x500.jpg
@@ -110,21 +106,17 @@ en: &DEFAULT_EN
         role: "Data Specialist"
         image: assets/img/team/500x500.jpg
         social: []
+      - name: "Daniel Kim"
+        role: "Data Visualization Specialist"
+        image: assets/img/team/500x500.jpg
+        social: []
 
   contact:
-    title: "Data Critique"
-    text: "What our dataset can and cannot tell us"
-    section: contact
-    name: "Name*"
-    name-validation: "Please enter your name."
-    email: "Email*"
-    email-validation: "Please enter your email address."
-    phone: "Phone Number"
-    phone-validation: "Please enter your phone number."
-    message: "Message*"
-    message-validation: "Please enter a message."
-    subject: "Contact Form Submission"
-    submit: "Send Message"
+  title: "Data Critique"
+  text: "What our dataset can and cannot tell us"
+  section: contact
+  body: |
+    [Your data critique write-up goes here — what information is included, what it can/cannot illuminate, and the ideological effects of the dataset's structure.]
 
   footer:
     legal: "Annotated Bibliography"
