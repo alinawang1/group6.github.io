@@ -9,15 +9,15 @@
 
 en: &DEFAULT_EN
   header:
-    title: "[Your Project Title Here]"
-    text: "A Digital Humanities exploration of [your dataset/topic] — DH 101, UCLA, Summer 2026"
+    title: "DH 101 Group 6"
+    text: "Exploring the California Health Interview Survey (CHIS)"
     button: Explore Our Research
     buttonlink: "#about"
 
   # Repurposed as the project Overview / Research Question section.
   services:
     title: "Overview"
-    text: "[Our research question goes here.]"
+    text: "Our research question is coming soon."
     section: services
     list: []
 
@@ -32,34 +32,18 @@ en: &DEFAULT_EN
     text: "Key events and developments related to our dataset"
     section: timeline
     events:
-      - title: "[Event Title]"
-        year: "[Year]"
-        desc: "[Description of this event/development and its relevance to your dataset.]"
+      - title: "Coming Soon"
+        year: ""
+        desc: "Timeline content is in progress."
         image: assets/img/timeline/1.jpg
         alt:
-      - title: "[Event Title]"
-        year: "[Year]"
-        desc: "[Description of this event/development and its relevance to your dataset.]"
-        image: assets/img/timeline/2.jpg
-        alt:
-      - title: "[Event Title]"
-        year: "[Year]"
-        desc: "[Description of this event/development and its relevance to your dataset.]"
-        image: assets/img/timeline/3.jpg
-        alt:
-    end: "[Closing line for <br> the timeline, <br> if desired]"
+    end: "Be Part <br> of Our <br> Story!"
 
   about:
     title: "About This Project"
     text: "sources, processing, presentation"
     body: |
-      **Sources:** [Full technical description of where your data came from. Cite relevant class readings.]
-
-      **Processing:** [Full technical description of how you cleaned, structured, and analyzed the data. Cite relevant class readings.]
-
-      **Presentation:** [Full technical description of your design and presentation decisions, and why you made them. Cite relevant class readings.]
-
-      **Acknowledgments:** [Thank anyone who helped you — professors, TAs, dataset providers, etc.]
+      More information about our sources, processing, and presentation decisions is coming soon.
     section: about
 
   clients:
@@ -71,7 +55,7 @@ en: &DEFAULT_EN
   team:
     title: "OUR TEAM"
     text: "DH 101, UCLA — Summer 2026"
-    subtext: "Short bios and a full accounting of who was responsible for what."
+    subtext: "Meet the people behind this project."
     section: team
     people:
       - name: "Nancy Hey"
@@ -104,7 +88,7 @@ en: &DEFAULT_EN
     text: "What our dataset can and cannot tell us"
     section: contact
     body: |
-      [Your data critique write-up goes here — what information is included, what it can/cannot illuminate, and the ideological effects of the dataset's structure.]
+      Our data critique is coming soon.
 
   footer:
     legal: "Annotated Bibliography"
