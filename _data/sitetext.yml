@@ -2,7 +2,7 @@
 # Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
 #
 # Configuration: Add to _config.yml
-# locale: "en-US"
+# locale: "en-US"  [YOUR PREFERRED LOCALE]
 #
 # How to use:
 # {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
@@ -14,24 +14,12 @@ en: &DEFAULT_EN
     button: Explore Our Research
     buttonlink: "#about"
 
-  # NOTE: Services section is not really needed for this project.
-  # Left as a single minimal placeholder so the theme doesn't break.
-  # If you want it gone entirely, remove the {% include services.html %}
-  # (or equivalent) line from index.md, then you can delete this whole block.
+  # Repurposed as the project Overview / Research Question section.
   services:
-    title: "Project Components"
-    text: ""
+    title: "Overview"
+    text: "[Our research question goes here.]"
     section: services
-    list:
-      - title: "Data Visualizations"
-        desc: "Five original data visualizations exploring humanities questions raised by our dataset."
-        icon: fas fa-chart-bar
-      - title: "Maps"
-        desc: "An original map displaying a property of our data related to a humanities question."
-        icon: fas fa-map-marked-alt
-      - title: "Written Narrative"
-        desc: "A 2,000–3,000 word narrative describing our research and findings."
-        icon: fas fa-book
+    list: []
 
   portfolio:
     title: "Data Visualizations"
@@ -112,12 +100,17 @@ en: &DEFAULT_EN
         social: []
 
   contact:
-  title: "Data Critique"
-  text: "What our dataset can and cannot tell us"
-  section: contact
-  body: |
-    [Your data critique write-up goes here — what information is included, what it can/cannot illuminate, and the ideological effects of the dataset's structure.]
+    title: "Data Critique"
+    text: "What our dataset can and cannot tell us"
+    section: contact
+    body: |
+      [Your data critique write-up goes here — what information is included, what it can/cannot illuminate, and the ideological effects of the dataset's structure.]
 
   footer:
     legal: "Annotated Bibliography"
     social: []
+
+en-001:
+  <<: *DEFAULT_EN
+en-US:
+  <<: *DEFAULT_EN
