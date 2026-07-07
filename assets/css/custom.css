@@ -5,13 +5,13 @@ header.masthead {
 }
 
 header.masthead .intro-text {
-  padding-top: 120px;
-  padding-bottom: 60px;
+  padding-top: 80px;
+  padding-bottom: 40px;
 }
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
-    padding-top: 150px;
-    padding-bottom: 80px;
+    padding-top: 110px;
+    padding-bottom: 60px;
   }
 }
