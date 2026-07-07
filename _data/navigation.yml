@@ -20,7 +20,7 @@ en: &DEFAULT_EN
     - title: "Data Visualizations"
       section: portfolio
     - title: "Data Critique"
-      section: contact
+      url: "/data-critique/"
 
 en-001:
   <<: *DEFAULT_EN
