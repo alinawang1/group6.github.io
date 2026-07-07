@@ -9,16 +9,16 @@
 
 en: &DEFAULT_EN
   nav:
-    - title: "Overview"
-      section: services
-    - title: "Data Visualizations"
-      section: portfolio
-    - title: "Timeline"
-      section: timeline
     - title: "About"
       section: about
     - title: "Team"
       section: team
+    - title: "Overview"
+      section: services
+    - title: "Timeline"
+      section: timeline
+    - title: "Data Visualizations"
+      section: portfolio
     - title: "Data Critique"
       section: contact
 
