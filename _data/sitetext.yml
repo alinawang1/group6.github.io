@@ -15,13 +15,13 @@ en: &DEFAULT_EN
     buttonlink: "#about"
 
   # Repurposed as the project Overview / Research Question section.
-  services:
+  overview:
     title: "Overview"
     text: "Our research question is coming soon."
     section: overview
     list: []
 
-  portfolio:
+  data_visualizations:
     title: "Data Visualizations"
     text: "Our original visualizations exploring the dataset."
     section: data-visualizations
@@ -45,12 +45,6 @@ en: &DEFAULT_EN
     body: |
       More information about our sources, processing, and presentation decisions is coming soon.
     section: about
-
-  clients:
-    section: clients
-    max-height: 100px
-    horizontal-scrolling: ""
-    list: []
 
   team:
     title: "OUR TEAM"
@@ -83,7 +77,7 @@ en: &DEFAULT_EN
         image: assets/img/team/500x500.jpg
         social: []
 
-  contact:
+  data_critique:
     title: "Data Critique"
     text: "What our dataset can and cannot tell us"
     section: data-critique
