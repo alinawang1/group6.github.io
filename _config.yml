@@ -1,6 +1,11 @@
 remote_theme: raviriley/agency-jekyll-theme
- 
+
+title: DH 101 Group 6
+email: your-group-email@ucla.edu
+description: "A Digital Humanities exploration of the California Health Interview Survey (CHIS)"
+author: DH 101 Group 6
+
 locale: "en-US"
- 
+
 plugins:
   - jekyll-remote-theme
