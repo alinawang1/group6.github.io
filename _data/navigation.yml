@@ -14,13 +14,13 @@ en: &DEFAULT_EN
     - title: "Team"
       section: team
     - title: "Overview"
-      section: services
+      section: overview
     - title: "Timeline"
       section: timeline
     - title: "Data Visualizations"
-      section: portfolio
+      section: data-visualizations
     - title: "Data Critique"
-      url: "/data-critique/"
+      section: data-critique
 
 en-001:
   <<: *DEFAULT_EN
