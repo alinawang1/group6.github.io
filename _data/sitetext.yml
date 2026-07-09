@@ -17,7 +17,7 @@ en: &DEFAULT_EN
   # Repurposed as the project Overview / Research Question section.
   overview:
     title: "Overview"
-    text: "Our project analyzes the 2024 California Health Interview Survey (CHIS) Adult Public Use File — one year of data, adult respondents only. Our research question is coming soon."
+    text: "Our project analyzes the 2024 California Health Interview Survey (CHIS) Adult Public Use File, one year of data, adult respondents only. Our research question is coming soon."
     section: overview
     list: []
 
@@ -48,8 +48,8 @@ en: &DEFAULT_EN
 
   team:
     title: "OUR TEAM"
-    text: "DH 101, UCLA — Summer 2026"
-    subtext: "Meet the people behind this project."
+    text: "DH 101, UCLA Summer 2026"
+    text: "Meet the people behind this project."
     section: team
     people:
       - name: "Nancy Hey"
@@ -84,21 +84,21 @@ en: &DEFAULT_EN
     body: |
       ## About the Dataset
 
-      Our dataset comes from the [California Health Interview Survey (CHIS)](https://healthpolicy.ucla.edu/our-work/california-health-interview-survey-chis), conducted by the UCLA Center for Health Policy Research. CHIS is the nation's largest state health survey, and we are using the [2024 Adult Public Use File (PUF)](https://healthpolicy.ucla.edu/our-work/public-use-files) — one year of data, covering adult respondents only. CHIS also releases separate Teen and Child files, but our project focuses exclusively on the adult population.
+      Our dataset comes from the [California Health Interview Survey (CHIS)](https://healthpolicy.ucla.edu/our-work/california-health-interview-survey-chis), conducted by the UCLA Center for Health Policy Research. CHIS is the nation's largest state health survey, and we are using the [2024 Adult Public Use File (PUF)](https://healthpolicy.ucla.edu/our-work/public-use-files), one year of data, covering adult respondents only. CHIS also releases separate Teen and Child files, but our project focuses exclusively on the adult population.
 
       The dataset covers demographic characteristics, health status, chronic health conditions, health insurance coverage, access to healthcare, dental care, mental health, nutrition and physical activity, family environment, neighborhood safety, household income, and experiences related to discrimination.
 
       ## What This Dataset Can Illuminate
 
-      This data helps us understand patterns, relationships, and disparities across California's adult population in 2024, and how various factors positively or negatively affect people's well-being. It goes beyond simply asking whether people are healthy or sick — it also captures insurance status, income, employment, race and ethnicity, language, immigration-related characteristics, housing, and geography. This makes it possible to examine whether specific groups experience worse health outcomes or more difficulty accessing care than others — for example, whether low-income or uninsured adults, immigrants, limited-English-proficient residents, or specific racial and ethnic groups are more likely to delay care, skip medications, lack a usual source of care, face medical debt, or struggle to find doctors and specialists.
+      This data helps us understand patterns, relationships, and disparities across California's adult population in 2024, and how various factors positively or negatively affect people's well-being. It goes beyond simply asking whether people are healthy or sick. It also captures insurance status, income, employment, race and ethnicity, language, immigration-related characteristics, housing, and geography. This makes it possible to examine whether specific groups experience worse health outcomes or more difficulty accessing care than others. For example, whether low-income or uninsured adults, immigrants, limited-English-proficient residents, or specific racial and ethnic groups are more likely to delay care, skip medications, lack a usual source of care, face medical debt, or struggle to find doctors and specialists.
 
-      The dataset also speaks to specific public health issues among California adults in 2024, including chronic conditions, mental health needs, telehealth use, COVID-19 vaccination and long COVID, wildfire smoke protection, prescription painkiller use, hate incidents, and gambling-related harms, among others. These variables let us connect individual health experiences to broader social conditions — not just what health problems exist, but which communities are most affected and what barriers contribute to those differences.
+      The dataset also speaks to specific public health issues among California adults in 2024, including chronic conditions, mental health needs, telehealth use, COVID-19 vaccination and long COVID, wildfire smoke protection, prescription painkiller use, hate incidents, and gambling-related harms, among others. These variables let us connect individual health experiences to broader social conditions, not just what health problems exist, but which communities are most affected and what barriers contribute to those differences.
 
       ## What This Dataset Cannot Illuminate
 
       Because we are using a single year (2024) of cross-sectional data, and each row represents one survey response, it is difficult to determine the order in which events occurred, such as how an individual's health changed over time, or to compare against prior years within this dataset alone. Establishing causation is similarly difficult: most variables are measured at a single point in time and summarized into frequency distributions, so the data can reveal associations but cannot prove that one factor causes another. Because we're using the Adult file only, our findings also cannot speak to the health experiences of teens or children in California.
 
-      Coverage gaps also matter. CHIS's [2024 Public Use File](https://healthpolicy.ucla.edu/our-work/public-use-files) samples from residential addresses, so people experiencing homelessness or housing instability are unreachable, and institutionalized populations (e.g. nursing homes, youth facilities) are excluded entirely. Precise geography is also withheld — variables like latitude/longitude, census tract, and school location are restricted and only available through a separate IRB-approved application via the [Data Access Center](https://healthpolicy.ucla.edu/our-work/data-access-center), meaning fine-grained spatial analysis isn't possible with the public files. Respondents unable to complete the survey in the languages CHIS offers are also excluded, without being flagged as missing. Additionally, CHIS imputes some missing data through model-based methods, so certain cells are statistically generated rather than directly reported, with no easy way to distinguish between the two.
+      Coverage gaps also matter. CHIS's [2024 Public Use File](https://healthpolicy.ucla.edu/our-work/public-use-files) samples from residential addresses, so people experiencing homelessness or housing instability are unreachable, and institutionalized populations (e.g., nursing homes, youth facilities) are excluded entirely. Precise geography is also withheld. Variables like latitude/longitude, census tract, and school location are restricted and only available through a separate IRB-approved application via the [Data Access Center](https://healthpolicy.ucla.edu/our-work/data-access-center), meaning fine-grained spatial analysis isn't possible with the public files. Respondents unable to complete the survey in the languages CHIS offers are also excluded, without being flagged as missing. Additionally, CHIS imputes some missing data through model-based methods, so certain cells are statistically generated rather than directly reported, with no easy way to distinguish between the two.
 
       ## Methodology and Sourcing
 
@@ -108,7 +108,7 @@ en: &DEFAULT_EN
 
       ## Ideological Critique
 
-      CHIS organizes its data under the assumption that housing stability is the default condition of a Californian, meaning anyone outside that assumption is underrepresented or excluded from what the dataset defines as "the population." Health, in this framework, is treated largely as a matter of individual circumstance — insurance status, utilization, access — reflecting a biomedical model rather than a structural one. At the same time, survey questions frequently use race and ethnicity as administrative categories for stratification. Together, these choices can make a dataset with real gaps and distrust appear complete, when in reality it represents a narrower population: Californians who are stably housed and fluent in one of the survey's offered languages.
+      CHIS organizes its data under the assumption that housing stability is the default condition of a Californian, meaning anyone outside that assumption is underrepresented or excluded from what the dataset defines as "the population." Health, in this framework, is treated largely as a matter of individual circumstance, insurance status, utilization, and access, reflecting a biomedical model rather than a structural one. At the same time, survey questions frequently use race and ethnicity as administrative categories for stratification. Together, these choices can make a dataset with real gaps and distrust appear complete, when in reality it represents a narrower population: Californians who are stably housed and fluent in one of the survey's offered languages.
 
       *Sources: [About CHIS](https://healthpolicy.ucla.edu/our-work/california-health-interview-survey-chis/about-chis), [Access CHIS Data](https://healthpolicy.ucla.edu/our-work/california-health-interview-survey-chis/access-chis-data), [Public Use Files](https://healthpolicy.ucla.edu/our-work/public-use-files), [CHIS Design and Methods](https://healthpolicy.ucla.edu/our-work/california-health-interview-survey-chis/chis-design-and-methods), [Data Access Center](https://healthpolicy.ucla.edu/our-work/data-access-center), UCLA Center for Health Policy Research.*
 
