@@ -52,7 +52,7 @@ en: &DEFAULT_EN
     text: "Meet the people behind this project."
     section: team
     people:
-      - name: "Nancy Hey"
+      - name: "Nancy Her"
         role: "Project Manager"
         image: assets/img/team/500x500.jpg
         social: []
