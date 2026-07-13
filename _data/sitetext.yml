@@ -68,12 +68,13 @@ en: &DEFAULT_EN
         role: "Data Specialist"
         image: assets/img/team/500x500.jpg
         social: []
-      - name: "Cherry Chen"
-        role: "Data Specialist"
-        image: assets/img/team/500x500.jpg
+      - name: "Aoyu (Cherry) Chen"
+        role: "Data Analyst"
+        image: assets/img/team/cherry.JPG
         social: []
       - name: "Daniel Kim"
         role: "Data Visualization Specialist"
+        major: "Human Biology and Society"
         image: assets/img/team/500x500.jpg
         social: []
 
