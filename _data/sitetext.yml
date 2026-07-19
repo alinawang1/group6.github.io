@@ -57,14 +57,15 @@ en: &DEFAULT_EN
         major: "Psychology"
         image: assets/img/team/nancy.jpg
         social: []
-      - name: "Alina Wang"
-        role: "Web Designer"
-        image: assets/img/team/500x500.jpg
-        social: []
       - name: "Aoyu (Cherry) Chen"
         major: "Human Biology and Society"
         role: "Data Analyst"
         image: assets/img/team/cherry.jpg
+        social: []
+      - name: "Alina Wang"
+        major: "Computer Science"
+        role: "Website Designer"
+        image: assets/img/team/alina.jpg
         social: []
       - name: "Conner Levy"
         role: "Content Developer"
