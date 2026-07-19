@@ -61,7 +61,7 @@ en: &DEFAULT_EN
         role: "Web Designer"
         image: assets/img/team/500x500.jpg
         social: []
-        - name: "Aoyu (Cherry) Chen"
+      - name: "Aoyu (Cherry) Chen"
         major: "Human Biology and Society"
         role: "Data Analyst"
         image: assets/img/team/cherry.jpg
