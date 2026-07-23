@@ -24,3 +24,18 @@ header.masthead .intro-text {
 .team-member img {
   object-fit: cover;
 }
+
+/* Reduce oversized section spacing (was sized for short placeholder text) */
+.page-section {
+  padding: 60px 0;
+}
+
+@media (min-width: 768px) {
+  section {
+    padding: 90px 0;
+  }
+}
+
+.section-subheading {
+  margin-bottom: 30px !important;
+}
