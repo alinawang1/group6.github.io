@@ -54,7 +54,7 @@ en: &DEFAULT_EN
         image: assets/img/team/nancy.jpg
         social: []
       - name: "Aoyu (Cherry) Chen"
-        role: "Data Specialist"
+        role: "Data Analyst"
         major: "Human Biology and Society"
         image: assets/img/team/cherry.jpg
         social: []
