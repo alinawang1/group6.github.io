@@ -64,7 +64,8 @@ en: &DEFAULT_EN
         social: []
       - name: "Conner Levy"
         role: "Content Developer"
-        image: assets/img/team/500x500.jpg
+        major: "Art"
+        image: assets/img/team/conner.jpg
         social: []
       - name: "William Wu"
         role: "Data Specialist"
