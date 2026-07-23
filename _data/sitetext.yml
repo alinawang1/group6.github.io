@@ -46,15 +46,15 @@ en: &DEFAULT_EN
     body: |
       ## What Is Digital Humanities?
 
-      Digital humanities is work that happens at the intersection of computational methods and humanities questions. Drucker frames this as a simple but demanding formula: materials + processing + presentation. A project starts with source material (texts, images, data, or any other trace of human life), runs it through some computational process, and produces a presentation that makes an argument rather than just displaying numbers. Drucker is careful to note that none of these stages is neutral as the tools used to process material carry "cultural assumptions that value certain elements... over others," so every technical decision (what to include, how to process it, how to display it) is also an interpretive one. That is the core distinction between digital humanities and plain data science: DH treats the technical pipeline itself as something worth questioning, not just a means to an end.
+      Digital humanities is work that happens at the intersection of computational methods and humanities questions. Drucker frames this as a simple but demanding formula: materials + processing + presentation. A project starts with source material (texts, images, data, or any other trace of human life), runs it through some computational process, and produces a presentation that makes an argument rather than just displaying numbers. Drucker is careful to note that none of these stages is neutral, as the tools used to process material carry "cultural assumptions that value certain elements... over others," so every technical decision (what to include, how to process it, how to display it) is also an interpretive one. That is the core distinction between digital humanities and plain data science: DH treats the technical pipeline itself as something worth questioning, not just a means to an end.
 
       ## What Our Project Is About
 
       Our project asks how social and economic inequality shapes people's actual ability to protect their health in California, not just whether a health risk exists, but whether someone has the resources to guard against it, the everyday conditions to prevent it, and the access to care to treat it once it happens. We trace this across three connected stages:
 
-      1. **Protection:** wildfire smoke exposure and unequal access to filtered air
-      2. **Prevention:** neighborhood safety, physical activity, housing instability, and food access as conditions that make public health recommendations easier for some Californians to follow than others
-      3. **Access:** whether people can actually get appointments, see specialists, and receive care, beyond just having insurance
+      1. **Protection:** wildfire smoke exposure and unequal access to filtered air.
+      2. **Prevention:** neighborhood safety, physical activity, housing instability, and food access as conditions that make public health recommendations easier for some Californians to follow than others.
+      3. **Access:** whether people can actually get appointments, see specialists, and receive care, beyond just having insurance.
 
       In each section, we use the 2024 California Health Interview Survey (CHIS) Adult Public Use File to establish where the inequity lies, then evaluate the relevant California policy response to ask whether it's actually closing that gap or just acknowledging it. CHIS is the largest state health survey in the country and the only source detailed enough to trace how disadvantage compounds across all three stages for the same population.
 
@@ -62,11 +62,11 @@ en: &DEFAULT_EN
 
       Mapped onto Drucker's framework, our project's three levels look like this:
 
-      - **Sources/Materials:** The CHIS 2024 dataset, structured survey data, not raw observation. We chose it specifically because it's population-representative and covers all three of our themes in a single survey, letting us trace one population across protection, prevention, and access instead of stitching together incompatible datasets.
+      - **Sources/Materials:** The CHIS 2024 dataset, structured survey data, not raw observations. We chose it specifically because it's population-representative and covers all three of our themes in a single survey, letting us trace one population across protection, prevention, and access instead of stitching together incompatible datasets.
       - **Processing:** Statistical analysis involving cross-tabulating exposure, housing, and care-access variables against demographic and socioeconomic factors (age, income, race, insurance type) to surface inequality patterns that don't show up in any single variable alone. We chose quantitative methods because our argument depends on showing scale and distribution of inequity across a large population, not a close reading of individual cases.
       - **Presentation:** The site's narrative structure itself. Organizing the project as Protection → Prevention → Access is not just a table of contents. It is an argument that health inequity compounds across stages, and the structure is built to make readers feel that compounding rather than just report it as a stat.
 
-      This is also where the "humanities" half of digital humanities does real work. Trouillot argues that power enters historical (and, we would argue, statistical) production at the moment sources are first made, not just later, when someone interprets them. CHIS gives respondents a fixed list of reasons for delaying medication or missing care, which means some real barriers to health are legible in the dataset and others were never asked about at all. Treating CHIS as a constructed record rather than a neutral mirror, and asking what it was built to be able to say, is what turns this from a stats project into a digital humanities one.
+      This is also where the "humanities" half of digital humanities does real work. Trouillot argues that power enters historical (and, we would argue, statistical) production at the moment sources are first made, not just later, when someone interprets them. CHIS gives respondents a fixed list of reasons for delaying medication or missing care, which means some real barriers to health are legible in the dataset, and others were never asked about at all. Treating CHIS as a constructed record rather than a neutral mirror, and asking what it was built to be able to say, is what turns this from a stats project into a digital humanities one.
 
   team:
     title: "OUR TEAM"
