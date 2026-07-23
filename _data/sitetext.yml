@@ -70,8 +70,7 @@ en: &DEFAULT_EN
 
   team:
     title: "OUR TEAM"
-    text: "DH 101, UCLA — Summer 2026"
-    subtext: "Meet the people behind this project."
+    text: "Meet the people behind this project."
     section: team
     people:
       - name: "Nancy Her"
