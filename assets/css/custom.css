@@ -9,13 +9,13 @@ header.masthead {
 }
 
 header.masthead .intro-text {
-  padding-top: 160px;
+  padding-top: 110px;
   padding-bottom: 40px;
 }
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
-    padding-top: 190px;
+    padding-top: 130px;
     padding-bottom: 60px;
   }
 }
