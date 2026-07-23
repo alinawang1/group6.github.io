@@ -55,6 +55,7 @@ en: &DEFAULT_EN
         social: []
       - name: "Aoyu (Cherry) Chen"
         role: "Data Specialist"
+        major: "Human Biology and Society"
         image: assets/img/team/cherry.jpg
         social: []
       - name: "Alina Wang"
@@ -67,14 +68,16 @@ en: &DEFAULT_EN
         major: "Art"
         image: assets/img/team/conner.jpg
         social: []
+      - name: "Sanghyun (Daniel) Kim"
+        role: "Data Visualization Specialist"
+        major: "Statistics and Data Science"
+        image: assets/img/team/daniel.jpg
+        social: []
       - name: "William Wu"
         role: "Data Specialist"
         image: assets/img/team/500x500.jpg
         social: []
-      - name: "Daniel Kim"
-        role: "Data Visualization Specialist"
-        image: assets/img/team/500x500.jpg
-        social: []
+
 
   overview:
     title: "Overview"
