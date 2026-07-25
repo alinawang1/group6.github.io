@@ -40,8 +40,14 @@ header.masthead .intro-text {
   margin-bottom: 30px !important;
 }
 
-/* Indent blockquoted annotation text (e.g. bibliography entries) */
-#pagecontainer blockquote {
+/* Bibliography entries: access line stays flush left, only the annotation is indented */
+.bib-access {
+  font-style: italic;
+  margin-bottom: 0.3em;
+}
+
+.bib-annotation {
   margin-left: 30px;
+  margin-top: 0;
   margin-bottom: 1.5rem;
 }
