@@ -15,8 +15,6 @@ en: &DEFAULT_EN
       section: team
     - title: "Overview"
       section: overview
-    - title: "Timeline"
-      section: timeline
     - title: "Data Visualizations"
       section: data-visualizations
     - title: "Data Critique"
