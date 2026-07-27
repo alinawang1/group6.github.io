@@ -100,18 +100,6 @@ en: &DEFAULT_EN
     section: data-visualizations
     closebutton: "Close"
 
-  timeline:
-    title: "Timeline"
-    text: "Key events and developments related to our dataset"
-    section: timeline
-    events:
-      - title: "Coming Soon"
-        year: ""
-        desc: "Timeline content is in progress."
-        image: assets/img/timeline/1.jpg
-        alt:
-    end: "Be Part <br> of Our <br> Story!"
-  
   data_critique:
     title: "Data Critique"
     text: "What our dataset can and cannot tell us"
