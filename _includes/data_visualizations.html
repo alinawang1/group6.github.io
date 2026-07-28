@@ -7,6 +7,15 @@
         <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].data_visualizations.text | markdownify }}</h3>
       </div>
     </div>
+
+    {% if site.data.sitetext[site.locale].data_visualizations.body %}
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        {{ site.data.sitetext[site.locale].data_visualizations.body | markdownify }}
+      </div>
+    </div>
+    {% endif %}
+
     <div class="row">
     {% for project in site.portfolio %}
       <div class="col-md-4 col-sm-6 portfolio-item">
