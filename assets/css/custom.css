@@ -51,3 +51,23 @@ header.masthead .intro-text {
   margin-top: 0;
   margin-bottom: 1.5rem;
 }
+
+/* Centered figures with captions, for data visualization write-ups */
+.data-viz-figure {
+  text-align: center;
+  margin: 45px auto 35px;
+}
+
+.data-viz-figure img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.12);
+}
+
+.data-viz-figure figcaption {
+  font-style: italic;
+  color: #6c6c6c;
+  margin-top: 12px;
+  font-size: 0.95em;
+}
