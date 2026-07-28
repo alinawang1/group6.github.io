@@ -97,7 +97,7 @@ en: &DEFAULT_EN
   data_visualizations:
     title: "Data Visualizations"
     text: "Six original charts exploring housing stability, insurance access, and wildfire exposure across California"
-    section: portfolio
+    section: data-visualizations
     closebutton: "Close"
     body: |
       ## Housing Stability
