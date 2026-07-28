@@ -96,9 +96,57 @@ en: &DEFAULT_EN
   
   data_visualizations:
     title: "Data Visualizations"
-    text: "Our original visualizations exploring the dataset."
-    section: data-visualizations
+    text: "Six original charts exploring housing stability, insurance access, and wildfire exposure across California"
+    section: portfolio
     closebutton: "Close"
+    body: |
+      ## Housing Stability
+
+      <figure class="data-viz-figure">
+        <img src="assets/img/dataviz/figure1-housing-financial-sacrifices.png" alt="Bar chart of health-related financial sacrifices by housing stability">
+        <figcaption>Figure 1: Health-Related Financial Sacrifices by Housing Stability</figcaption>
+      </figure>
+
+      The starkest number here is the healthcare line for the Unstable group: 38.3%, roughly double the Somewhat Stable group's 18.9% and well above the Stable group's 25.3%. That's a real cliff, not a gradual slope. It suggests healthcare spending doesn't get squeezed steadily as housing gets shakier. It gets squeezed hard once housing crosses into genuine instability. What complicates the story is that healthy-food cutbacks don't track the same curve: Stable (13.7%) actually outpaces Unstable (8.5%), with Somewhat Stable lowest of all (3.7%). Read literally, the group with the *least* housing precarity reports cutting back on food more than the group with the *most* precarity. That's counterintuitive enough to be worth sitting with rather than smoothing over. One possibility is that households in a real housing crisis have already cut food spending to a floor they can't reduce further, so the *marginal* cutback shows up elsewhere (healthcare) instead. Another is that this reflects the volatility of small survey subsamples. CHIS's "Unstable" and "Somewhat Stable" housing categories are likely thinner slices of the sample, so single-percentage-point comparisons carry more noise than a story about "the poorest households sacrifice most" would imply. Either way, the honest finding is a spike, not a slope: housing instability doesn't sacrifice everything evenly. It forces a specific, uneven set of trade-offs.
+
+      <figure class="data-viz-figure">
+        <img src="assets/img/dataviz/figure2-housing-disadvantages.png" alt="Bar chart of everyday health disadvantages by housing stability">
+        <figcaption>Figure 2: Everyday Health Disadvantages by Housing Stability</figcaption>
+      </figure>
+
+      None of the three measures move in a straightforward line with housing stability, and that's the finding. Secondhand smoke/vape exposure dips from 42.7% (Stable) to 32.0% (Somewhat Stable) before climbing to 48.9% (Unstable), the same dip-then-spike shape that shows up in Figure 1's healthcare sacrifice data, which makes it feel less like a fluke and more like a real feature of how the middle "Somewhat Stable" category behaves in this dataset. Unsafe-neighborhood perception stays essentially flat between Stable (41.0%) and Somewhat Stable (41.1%), then actually *drops* for Unstable (34.7%), the opposite of what a simple "worse housing, worse neighborhood" story would predict. Physical activity insufficiency swings the most dramatically, from 27.1% (Stable) up to 41.5% (Somewhat Stable) and down to just 8.6% (Unstable). Taken together, this chart resists a tidy narrative. It's tempting to assume housing instability degrades every dimension of daily life uniformly, but the data show something closer to a redistribution of disadvantage. Some measures worsen, some hold steady, and at least one improves. That's a useful complication to name explicitly in the narrative: it's evidence against treating "housing instability" as a single, uniformly worsening condition, and a reminder that self-reported, categorical CHIS variables compress a lot of lived variation into three buckets.
+
+      ## Insurance Type and Health Care Access
+
+      <figure class="data-viz-figure">
+        <img src="assets/img/dataviz/figure3-usual-source-of-care.png" alt="Bar chart of access to usual source of care by insurance type">
+        <figcaption>Figure 3: Access to Usual Source of Care by Insurance Type</figcaption>
+      </figure>
+
+      The uninsured figure is the headline: only 49.9% have a usual source of care, roughly half the rate of every insured group, which range from 76.8% to 95.5%. But the more interesting story is inside that insured range. Medicaid-only enrollees report the lowest access among all insured categories at 76.8%, lower than privately purchased coverage (83.6%) and dramatically lower than dual Medicare-and-Medicaid enrollees (89.3%) or Medicare-plus-other-coverage (95.5%). That gap matters for the policy argument this section is likely building toward: simply expanding Medicaid eligibility doesn't close the access gap on its own if Medi-Cal's provider networks and reimbursement rates make it harder for enrollees to find a practice that will see them regularly. The pattern across the Medicare-based categories, all above 89%, suggests that *stacking* coverage (Medicare with Medicaid, or Medicare with supplemental insurance) does meaningfully close the gap, which raises a fairness question of its own: access to a usual source of care starts to look less like a function of being insured and more a function of how many layers of insurance a person can afford to stack.
+
+      <figure class="data-viz-figure">
+        <img src="assets/img/dataviz/figure4-timely-appointments.png" alt="Bar chart of access to timely appointments by insurance type">
+        <figcaption>Figure 4: Access to Timely Appointments by Insurance Type</figcaption>
+      </figure>
+
+      The most striking thing about this chart is how *low* every bar is, not just the uninsured one. Even the best-performing insured groups, Medicare-plus-other-coverage and "Other public" (both 28.2%), mean fewer than 3 in 10 respondents report timely appointment access. The uninsured rate (9.2%) is still the clear low point, and roughly a third of the next-lowest group's rate, but the insured categories themselves are bunched tightly together between 22.0% and 28.2%, a much narrower spread than Figure 3's 76.8% to 95.5% range for usual source of care. That contrast is worth naming directly: insurance type seems to matter a great deal for whether you *have* a place to go, but far less for whether that place can see you *quickly* once you're in the system. Read alongside Figure 3, this suggests two distinct policy problems layered on top of each other: an access-to-coverage problem, which insurance type clearly shapes, and a system-wide capacity problem (provider shortages, appointment backlogs) that appears to affect almost everyone regardless of coverage type, and that expanding insurance alone won't solve.
+
+      ## Wildfire Exposure and Protective Resources
+
+      <figure class="data-viz-figure">
+        <img src="assets/img/dataviz/figure5-filtered-air-access.png" alt="Chart of access to filtered air by poverty level and English proficiency">
+        <figcaption>Figure 5: Access to Filtered Air by Poverty Level and English Proficiency</figcaption>
+      </figure>
+
+      The chart's own callout numbers frame the range clearly: filtered-air access spans from a low of 41.4% up to a high of 76.7% across the twelve poverty-by-language combinations shown. The lowest value sits among respondents combining the lowest income bracket (0-99% FPL) with limited English proficiency, while the highest sits among the highest income bracket (300%+ FPL). That endpoint pairing is the clearest evidence of a *compounding* disadvantage rather than two separate ones: being low-income alone doesn't produce the floor value, and having limited English proficiency alone doesn't either. It's the combination that does. This matters for how the Prevention section frames wildfire smoke as a health risk: filtered air is a protective resource that requires both the financial capacity to install or run it and, plausibly, the language access to learn about programs (rebates, AQI alerts, filtration assistance) that make it available. A household facing both barriers at once isn't just doubly disadvantaged. The gap between the highest and lowest access rates (over 35 percentage points) suggests the barriers interact rather than simply add. That's a strong candidate for connecting to the annotated bibliography's sources on environmental justice and access to protective infrastructure.
+
+      <figure class="data-viz-figure">
+        <img src="assets/img/dataviz/figure6-wildfire-exposure.png" alt="Chart of wildfire smoke exposure by community type">
+        <figcaption>Figure 6: Wildfire Smoke Exposure by Community Type</figcaption>
+      </figure>
+
+      A majority of rural respondents, 55.58%, report having experienced wildfire smoke exposure, compared with 35.06% of urban respondents, a 20-point gap that puts rural Californians on the wrong side of a coin flip while urban Californians are not. This tracks with what's geographically expected: rural communities sit closer to the wildland-urban interface where fires ignite and burn, and are more likely to include outdoor agricultural or manual labor that can't simply retreat indoors during a smoke event. What makes this chart do real analytical work, though, is reading it next to Figure 5. The same rural communities bearing the greatest wildfire smoke exposure are, by extension, more likely to fall into the lower-income brackets where Figure 5 showed filtered-air access is weakest, meaning the population most exposed to the hazard is plausibly also the population least equipped with the protective resource that would mitigate it. That double bind, highest exposure paired with lowest protection, is a more precise and more damning finding than either chart offers alone, and it's the kind of connective argument that's worth making explicit in the narrative rather than leaving the two figures to sit side by side.
 
   data_critique:
     title: "Data Critique"
