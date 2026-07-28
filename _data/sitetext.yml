@@ -75,7 +75,8 @@ en: &DEFAULT_EN
         social: []
       - name: "William Wu"
         role: "Data Specialist"
-        image: assets/img/team/500x500.jpg
+        major: "Data Science and Statistics"
+        image: assets/img/team/william.jpg
         social: []
 
   overview:
