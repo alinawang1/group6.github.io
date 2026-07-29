@@ -188,7 +188,29 @@ en: &DEFAULT_EN
       These changes align with California's broader environmental health policies, which increasingly recognize that vulnerable communities require additional support during wildfire events. However, the CHIS findings suggest that significant disparities remain. While the state has expanded smoke warning systems, Clean Air Centers, and community preparedness programs, access to protective resources is still uneven.
 
       **Policy Recommendation:** California should continue expanding its wildfire prevention protocols, as it has already been doing, but begin prioritizing communities with both high smoke exposure and limited protective resources. Lower-income households should receive higher priority in the distribution of portable HEPA air filtration units, especially in wildfire-prone regions, along with an expansion of multilingual outreach to better help residents whose first language is not English understand important information. Strengthening partnerships between schools, libraries, and community organizations should also be implemented to provide additional Clean Air Centers with easier access in more rural communities. With these actions, California can more effectively expand its existing wildfire policies while addressing the socioeconomic and language barriers highlighted by the CHIS findings.
-      
+
+  maps_and_timeline:
+    title: "Maps and Timeline"
+    text: "Geographic and historical context for our findings"
+    section: maps-and-timeline
+    body: |
+      ## Map
+
+      <figure class="data-viz-figure">
+        <img src="assets/img/dataviz/map-uninsured-by-county.png" alt="Map of California showing the percentage of the civilian non-institutionalized population without health insurance coverage by county">
+        <figcaption>Total Civilian Non-Institutionalized Population: No Health Insurance Coverage, ACS 2024 (5-Year Estimates)</figcaption>
+      </figure>
+
+      Our map visualization shows the percentage of California's civilian non-institutionalized population without health insurance coverage, broken down by county. The shades represent ranges of insurance rates, with darker orange indicating counties with higher percentages of uninsured residents and lighter orange indicating counties with lower rates. Every shade of orange in the legend can be seen throughout the state, indicating disproportionate access to health care. Over the years, California has implemented policies to expand health insurance coverage, such as the Medi-Cal expansion and Covered California. Although these actions have helped progressed California's overall push for coverage, both insurance and socioeconomic inequalities are still preventing many from receiving proper healthcare access.
+
+      ## Timeline
+
+      *Our timeline is still in progress. Key dates and policy milestones related to our dataset will be added here.*
+
+      - **[Year]** — [Placeholder event]
+      - **[Year]** — [Placeholder event]
+      - **[Year]** — [Placeholder event]
+
   data_critique:
     title: "Data Critique"
     text: "What our dataset can and cannot tell us"
