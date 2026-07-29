@@ -17,6 +17,8 @@ en: &DEFAULT_EN
       section: overview
     - title: "Data Visualizations"
       section: data-visualizations
+    - title: "Maps and Timeline"
+      section: maps-and-timeline
     - title: "Data Critique"
       section: data-critique
 
@@ -24,4 +26,3 @@ en-001:
   <<: *DEFAULT_EN
 en-US:
   <<: *DEFAULT_EN
-  
