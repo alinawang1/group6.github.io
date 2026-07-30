@@ -15,10 +15,10 @@ en: &DEFAULT_EN
       section: team
     - title: "Overview"
       section: overview
-    - title: "Data Visualizations"
-      section: data-visualizations
     - title: "Maps and Timeline"
       section: maps-and-timeline
+    - title: "Data Visualizations"
+      section: data-visualizations
     - title: "Data Critique"
       section: data-critique
 
